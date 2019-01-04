@@ -51,7 +51,7 @@
 #' @export
 SolveHMME = function(X, Y, Mu, Lambda){
   #--------------------------------------------------------------
-  ## Part 1 : Parameter Checks by Kisung
+  ## Part 1 : Parameter Checks
   #   1. get size information of the problem
   Rn = length(Lambda)
   dimMat = dim(X)
